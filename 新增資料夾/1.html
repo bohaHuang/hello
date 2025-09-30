@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>甜甜屋糕點專賣店</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Helvetica Neue", sans-serif;
+      background-color: #fff3b0; /* 淡黃色背景 */
+      color: #5d3a9b; /* 紫色字體 */
+    }
+    header {
+      background-color: #fff3b0;
+      padding: 20px;
+      text-align: center;
+      font-size: 2.5em;
+      font-weight: bold;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      background-color: #ffec99;
+      padding: 10px 0;
+      font-weight: bold;
+    }
+    nav a {
+      color: #5d3a9b;
+      text-decoration: none;
+    }
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .product {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 10px;
+    }
+    .product img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    footer {
+      background-color: #ffec99;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #5d3a9b;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    甜甜屋糕點專賣店
+  </header>
+
+  <nav>
+    <a href="#about">關於我們</a>
+    <a href="#products">產品展示</a>
+    <a href="#reviews">顧客評價</a>
+    <a href="#contact">聯絡我們</a>
+  </nav>
+
+  <section id="about">
+    <h2>關於我們</h2>
+    <p>我們是充滿熱情的手工糕點品牌，專注於使用天然食材製作出美味又美觀的糕點。每一口都是幸福的味道！</p>
+  </section>
+
+  <section id="products">
+    <h2>人氣糕點</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="https://source.unsplash.com/400x300/?cake" alt="草莓蛋糕">
+        <h3>草莓鮮奶油蛋糕</h3>
+        <p>新鮮草莓搭配濃郁鮮奶油，人氣必買！</p>
+      </div>
+      <div class="product">
+        <img src="https://source.unsplash.com/400x300/?pastry" alt="千層酥">
+        <h3>手工千層酥</h3>
+        <p>酥脆口感層層堆疊，甜而不膩。</p>
+      </div>
+      <div class="product">
+        <img src="https://source.unsplash.com/400x300/?macaron" alt="馬卡龍">
+        <h3>法式馬卡龍</h3>
+        <p>繽紛可愛，外酥內軟，是視覺與味覺的享受。</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="reviews">
+    <h2>顧客評價</h2>
+    <p>「超級好吃！我已經回購三次了！」 - 小美</p>
+    <p>「朋友生日用這裡的蛋糕慶祝，大家都讚不絕口！」 - 阿成</p>
+  </section>
+
+  <section id="contact">
+    <h2>聯絡我們</h2>
+    <p>歡迎來信洽詢或到店選購：</p>
+    <p>Email: sweet@cakehouse.com</p>
+    <p>電話: 02-1234-5678</p>
+    <p>地址: 台北市甜點路123號</p>
+  </section>
+
+  <footer>
+    © 2025 甜甜屋糕點專賣店 | 甜點讓生活更美好 🍰
+  </footer>
+
+</body>
+</html>
